@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>23 - 19431421 - Trịnh Quốc Hoàng - Lớp DHCNTT15C</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/js.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 banner">
+        <img src="../images/banner.jpg" alt="">
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Đăng nhập</a>
+          <div class="dropdown-menu">
+            <a href="" class="dropdown-item">Google</a>
+            <a href="" class="dropdown-item">Facebook</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#myModal">Đăng ký</a></li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">DANH SÁCH ĐỘI TUYỂN VIỆT NAM</h1>
+      </div>
+      <div class="col-md-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <td>STT</td>
+              <td>Họ tên</td>
+              <td>Số áo</td>
+              <td>Địa chỉ</td>
+              <td>Ngày tập trung</td>
+              <td>Điện thoại</td>
+              <td>Ảnh đại diện</td>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <footer class="text-center">
+      SVTH: Trịnh Quốc Hoàng - Mã sinh viên: 19431421 - Lớp: DHCNTT15C
+    </footer>
+  </div>
+
+  <div class="modal fade" role="dialog" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 style="margin: auto;">
+            Thông tin đăng ký
+          </h2>
+        </div>
+        <div class="modal-body">
+          <form action="" class="form-horizontal row" role="form">
+            <label class="control-label col-md-3 text-right">Họ tên:</label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtHoTen">
+              <span class="text-danger" id="tbHoTen">*</span>
+            </div>
+            <label class="control-label col-md-3 text-right">Số áo: </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtSoAo">
+              <span class="text-danger" id="tbSoAo">*</span>
+            </div>
+            <label class="control-label col-md-3 text-right">Địa chỉ: </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtDiaChi">
+              <span class="text-danger" id="tbDiaChi">*</span>
+            </div>
+            <label class="control-label col-md-3 text-right">Ngày tập trung: </label>
+            <div class="col-md-9">
+              <input type="date" class="form-control" id="txtNgayTapTrung">
+              <span class="text-danger" id="tbNgayTapTrung">*</span>
+            </div>
+            <label class="control-label col-md-3 text-right">Số điện thoại: </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtSoDienThoai">
+              <span class="text-danger" id="tbSoDienThoai">*</span>
+            </div>
+            <label class="control-label col-md-3 text-right">Ảnh đại diện: </label>
+            <div class="col-md-9">
+              <input type="file" class="form-control" id="txtAnhDaiDien">
+              <span class="text-danger" id="tbAnhDaiDien">*</span>
+            </div>
+
+            <button style="width: 100%;" type="button" class="btn btn-danger" id="btnSave">Lưu</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+
+</html>
