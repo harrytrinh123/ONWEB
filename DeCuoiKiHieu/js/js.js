@@ -31,13 +31,13 @@ $(document).ready(function(e){
     $("#txtSoAo").blur(KiemTraSoAo);
 
     function KiemTraDiaChi() {
-        var re = /^[A-Z][a-z]+(\s[A-Z][a-z]+)+$/;
+        var re = /^[A-Z][a-z]+(\s[A-Z][a-z]+)+(\s\d)+$/;
         if($("#txtDiaChi").val() == "") {
             $("#tbDiaChi").html("Khong duoc de trong");
             return false;
         }
         if(!re.test($("#txtDiaChi").val())) {
-            $("#tbDiaChi").html("Ky tu dau viet hoa");
+            $("#tbDiaChi").html("Ky tu dau viet hoa va so");
             return false;
         }
         $("#tbDiaChi").html("*");
@@ -88,7 +88,7 @@ $(document).ready(function(e){
     $("#txtAnhDaiDien").blur(KiemTraFile);
 
     $("#btnSave").click(function() {
-        if(true) {
+        if(KiemTraDiaChi() && KiemTraFile() && KiemTraNgay() && KiemTraSoAo() && KiemTraSoDienThoai() && KiemTraTen()) {
             var row = "<tr>";
             row += "<td>" + (i++) + "</td>";
             row+= "<td>"+ $("#txtHoTen").val() + "</td>";
