@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>23_19431421_TrinhQuocHoang_DHCNTT15C</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/js.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="../images/logo.png" alt="">
+      </div>
+      <div class="col-md-8 text-center">
+        <h1 style="font-weight: 800; color: blue; font-size: 35px; padding: 10px;">BỘ CÔNG THƯƠNG <br> TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP TP. HỒ CHÍ MINH</h1>
+        <p class="text-danger">Đổi mới, nâng tầm cao mới - Năng động, hội nhập toàn cầu</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <nav class="navbar navbar-expand-lg">
+        <ul class="navbar-nav">
+          <li class="nav-link"><a href="" class="nav-item">Đăng nhập</a></li>
+          <li class="nav-link"><a href="" class="nav-item" data-toggle="modal" data-target="#myModal">Đăng ký</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 style="font-size: 30px; padding: 10px;" class="text-center">DANH SÁCH ĐĂNG KÝ LÀM CĂN CƯỚC SINH VIÊN <br> TRƯỜNG ĐẠI HỌC CÔNG NGHIÊP TP. HỒ CHÍ MINH
+        </h1>
+      </div>
+      <div class="col-md-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <td>STT</td>
+              <td>Họ tên</td>
+              <td>Số CMND cũ</td>
+              <td>Quê quán</td>
+              <td>Email</td>
+              <td>Điện thoại</td>
+              <td>Ảnh đại diện</td>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer class="text-center">
+      SVTH: Trịnh Quốc Hoàng - Mã sinh viên: 19431421 - Lớp: DHCNTT15C
+    </footer>
+  </div>
+
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 style="margin: auto;">THÔNG TIN CÁ NHÂN</h2>
+        </div>
+        <div class="modal-body">
+          <form action="" class="row">
+            <label for="" class="col-md-3 control-label text-right">Họ tên: </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtTen" placeholder="Nhập họ tên">
+              <span class="text-danger" id="tbTen">*</span>
+            </div>
+
+            <label for="" class="col-md-3 control-label text-right">Số CMND cũ: </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtCMND" placeholder="Nhập CMND cũ">
+              <span class="text-danger" id="tbCMND">*</span>
+            </div>
+
+            <label for="" class="col-md-3 control-label text-right">Quê quán: </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtQue" placeholder="Nhập quê quán">
+              <span class="text-danger" id="tbQue">*</span>
+            </div>
+
+            <label for="" class="col-md-3 control-label text-right">Email: </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtEmail" placeholder="Nhập email">
+              <span class="text-danger" id="tbEmail">*</span>
+            </div>
+
+            <label for="" class="col-md-3 control-label text-right">Điện thoại: </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="txtDienThoai" placeholder="xxxx-xxx-xxx">
+              <span class="text-danger" id="tbDienThoai">*</span>
+            </div>
+            <label for="" class="col-md-3 control-label text-right">Ảnh đại diện: </label>
+            <div class="col-md-9">
+              <input type="file" class="form-control" id="txtAnh" placeholder="Ảnh đại diện">
+              <span class="text-danger" id="tbAnh">*</span>
+            </div>
+            
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button style="width: 100%; background-color:rgb(65, 230, 134);" class="btn" id="btnSave">Lưu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
