@@ -14,7 +14,90 @@
 </head>
 
 <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 banner">
+        <img src="../images/vnpt1.jpg" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-link"><a href="" class="nav-item">Homepage</a></li>
+            <li class="nav-link"><a href="" class="nav-item">Services</a></li>
+            <li class="nav-link"><a href="" class="nav-item">Support</a></li>
+            <li class="nav-link"><a href="" class="nav-item" data-toggle="modal" data-target="#myModal">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-10">
+        <h1>LIST OF CONTACTS</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <td>No</td>
+              <td>Full Name</td>
+              <td>Email</td>
+              <td>Phone No</td>
+              <td>Type</td>
+              <td>Message</td>
+            </tr>
+          </thead>
+          <tbody>
 
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <footer>
+      ID Number: 19431421 - Student name: Trinh Quoc Hoang
+    </footer>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal " id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>CONTACT FORM</h2>
+        </div>
+        <div class="modal-body">
+          <form action="" class="row">
+            <div class="col-md-12">
+              <input type="text" class="form-control" id="txtName" placeholder="Name" value="Trinh Quoc Hoang">
+              <span class="text-danger" id="tbName">(*)</span>
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" id="txtEmail" placeholder="Email" value="quochoang@gmail.com">
+              <span class="text-danger" id="tbEmail">(*)</span>
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" id="txtPhone" placeholder="Phone No" value="08-084-12341234">
+              <span class="text-danger" id="tbPhone">(*)</span>
+            </div>
+            <div class="col-md-12">
+              <input value="Personal" id="per" type="radio" checked>
+              <label for="">Personal</label>
+              <input value="Company" id="com" type="radio">
+              <label for="">Company</label>
+            </div>
+
+            <div class="col-md-12">
+              <textarea name="" id="txtMes" cols="65" rows="5" placeholder="Write here">Tôi muốn liên hệ</textarea>
+              <span class="text-danger" id="tbMes">(*)</span>
+            </div>
+            <button class="btn btn-primary " id="btnSave">Add</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <span class="text-danger">19431421 - Trịnh Quốc Hoàng - DHCNTT15A</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

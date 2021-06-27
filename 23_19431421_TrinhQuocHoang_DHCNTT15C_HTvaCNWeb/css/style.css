@@ -1,0 +1,9 @@
+.banner img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(54, 101, 202);
+    height: 60px;
+    padding: 10px;
+}
