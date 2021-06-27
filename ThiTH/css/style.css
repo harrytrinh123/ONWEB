@@ -1,0 +1,19 @@
+.thongTin {
+    background-color: rgb(166, 205, 231);
+    width: 100%;
+}
+
+.thongTin ul {
+    list-style: none;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(166, 205, 231);
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.navbar {
+    background-color: rgb(166, 205, 231);
+}
